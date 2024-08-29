@@ -1,2 +1,2 @@
 # RepoHackMind
-Repositório especial para as aulas de Hacker-Mindset
+Repositório especial para armazenar o conteúdo relacionado com Hacker-Mindset
