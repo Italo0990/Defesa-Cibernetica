@@ -1,2 +1,2 @@
 # RepoHackMind
-Repositório especial para armazenar o conteúdo relacionado com Hacker-Mindset
+Repositório especial para armazenar o conteúdos relacionados ao curso de Defesa Cibernética
