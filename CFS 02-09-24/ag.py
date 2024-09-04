@@ -1,16 +1,14 @@
 print ('Atividade 3 - Code For Security\n')
 
-usr = 'User'
-pss = 123
+usr, pss = 'User', 'adm'
 
-usr = input('Digite o usuário: ')
-if usr == 'User':
-    pss = int(input('Digite sua senha: '))
+
+
+usrr = input('Digite o usuário: ')
+psss = input('Digite sua senha: ')
+
+
+if usrr == usr and psss == pss:
+     print('Acesso liberado!')
 else:
-    print('Usuário Inválido!')
-    
-    pss = input('Digite sua senha: ')
-if pss == 123:
-    print('Acesso liberado!')
-else:
-    print('Senha Inválido!')
+     print('Credenciais Inválidas!')
