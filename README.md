@@ -1,2 +1,2 @@
 # RepoCyberSec
-Repositório para as aulas relacionadas a Hacker-Mindset
+Repositório para as aulas relacionadas a Defesa Cibernética
