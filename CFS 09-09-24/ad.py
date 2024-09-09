@@ -7,4 +7,4 @@ logs = [
 ]
 
 for log in logs:
-    print(1[:13])
+    print(log[:13])
