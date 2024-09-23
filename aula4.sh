@@ -20,7 +20,7 @@ cd hackermindset/
 echo "usuario: "$(whoami) > file.txt
 echo "host: "$(hostname) >> file.txt
 echo "SO: "$( systeminfo | grep "Nome do sistema operacional" | cut -d : -f2- | cut -c 2-) >> file.txt
-echo "Ip: "$(ipconfig | grep "Endereço IPv4. . . . . . . . . . . :" | awk '{print $14}' | sed '2,14d') >> file.txt
+echo "Ip: "$(ipconfig | grep "IPv4 Address. . . . . . . . . . . :" | awk '{print $14}' | sed '2,14d') >> file.txt
 echo "path: "$(pwd) >> file.txt
 
 
