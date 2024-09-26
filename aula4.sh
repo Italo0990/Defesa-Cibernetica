@@ -23,4 +23,4 @@ echo "SO: "$( systeminfo | grep "Nome do sistema operacional" | cut -d : -f2- | 
 echo "Ip: "$(ipconfig | grep "Endereço IPv4. . . . . . . . . . . :" | awk '{print $14}' | sed '2,14d') >> file.txt
 echo "path: "$(pwd) >> file.txt
 
-
+#Comantario novoooo
