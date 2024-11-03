@@ -6,14 +6,14 @@ import string
 
 letras = string.ascii_letters
 print(letras)
-letras = string.ascii_lowercase
-print(letras)
-letras = string.ascii_uppercase
-print(letras)
-letras = string.digits
-print(letras)
-letras = string.punctuation
-print(letras)
+letras_minúsculas = string.ascii_lowercase
+print(letras_minúsculas)
+letras_maiúsculas = string.ascii_uppercase
+print(letras_maiúsculas)
+númeors = string.digits
+print(números)
+acentos= string.punctuation
+print(acentos)
 
 #float
 print(random.random())
