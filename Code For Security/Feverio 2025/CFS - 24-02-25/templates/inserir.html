@@ -1,0 +1,9 @@
+{% extends "templates.html" %}
+{% block conteudo %}
+<h1>Inserir Usuario</h1>
+<form action="{{ url_for('usuarios_cadastro')}}" method="post">
+    <input type="text" name="nome" placeholder="Nome"></input:>
+    <input type="email" name="email" placeholder="Email">
+    <button type="submit">Enviar</button>
+</form>
+{% endblock %}
