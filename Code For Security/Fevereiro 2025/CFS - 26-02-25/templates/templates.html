@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{titulo}}</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='bootstrap.css')}}">
+</head>
+<body>
+   <main>
+    <div class="container">
+    {% block conteudo %}
+    {% endblock %}
+</div>
+</main>
+<script src="{{ url_for('static',filename='bootstrap.js')}}"></script>"
+</body>
+
+
+</html>
