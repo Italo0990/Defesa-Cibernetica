@@ -1,0 +1,23 @@
+{% extends "templates.html" %}
+{% block conteudo %}
+<h1>Inserir Usuario</h1>
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h4>Cadastro</h4>
+        </div>
+        <div class="card-body">
+            <form action="{{ url_for('upload_arq')}}" method="post" enctype="multipart/form-data">
+           
+                <div class="mb-3">
+                    <input type="file" class="form-control" name="arquivo" placeholder="Selecione o arquivo" required>
+                </div>
+           
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <input type="hidden" name="csrf_token" value={{ csrf_token() }}>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
